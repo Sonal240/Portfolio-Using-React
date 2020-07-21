@@ -20,3 +20,5 @@ This is my very first portfolio using ReactJS
 * **main(master)**: This branch contain the deployment of the website.
 * **documentation/content**: This branch is used for creating prs related to content/documentation.
 * **design**: This branch is used for creating prs for adding illustrations etc as assets
+* **code**: This branch is used for creating prs related to code
+
