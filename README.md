@@ -6,7 +6,7 @@ This is my very first portfolio using ReactJS
 
 * Clone this repository
 * yarn (to install all required dependencies)
-* yarn (start to start the local server)
+* yarn start (to start the local server)
 
 ## Prerequisites
 
