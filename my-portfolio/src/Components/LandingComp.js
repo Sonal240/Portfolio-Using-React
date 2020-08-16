@@ -1,12 +1,10 @@
 import {React,Component} from 'react'
 import {Button} from '@material-ui/core'
 
-class Landing extends Component{
+class LandingComp extends Component{
 render(){
-  return (
-       <p>HI</p>
-    );
+  return ( <p>HI</p>);
 }
 }
 
-export default Landing;
+export default LandingComp;
