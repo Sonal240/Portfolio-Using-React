@@ -1,13 +1,24 @@
 import React from 'react';
-import 'Components/LandingComp.js'
-//import 'Components/AboutMe.js'
-//import 'Components/MyProject.js'
-//import 'Components/ContactMe.js'
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <LandingComp/>
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
 }
