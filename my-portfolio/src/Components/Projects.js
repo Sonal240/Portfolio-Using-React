@@ -4,7 +4,7 @@ class MyPro extends Component{
     render(){
         return(
             <div>
-                <h1>Hi Simran, it worked</h1>
+                <h1>Ahoy</h1>
             </div>
         );
     }
