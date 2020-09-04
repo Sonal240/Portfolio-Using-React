@@ -1,4 +1,6 @@
 import React,{Component} from 'react';
+import {withRouter} from 'react-router-dom'
+
 
 class MyPro extends Component{
     render(){
@@ -10,4 +12,4 @@ class MyPro extends Component{
     }
 }
 
-export default MyPro;
+export default withRouter(MyPro);

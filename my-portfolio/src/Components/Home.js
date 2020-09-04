@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import NavbarComp from './Navabar.js'
+import {withRouter} from 'react-router-dom'
 
 class LandingComp extends Component{
     render(){
@@ -7,11 +8,11 @@ class LandingComp extends Component{
             <>
             <NavbarComp/>
             <div>
-                <h1>Hi</h1>
+                <h1>hi</h1>
             </div>
             </>    
         );
     }
 }
 
-export default LandingComp;
+export default withRouter(LandingComp);
